@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    d = s[1]
+    return d
+
+print(main('wife'))
