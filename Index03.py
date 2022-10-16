@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x = s[-1]
+    return x
+
+print(main('son'))
