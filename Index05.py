@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = len(s[:])
+    return a
+
+print(main('coder'))
