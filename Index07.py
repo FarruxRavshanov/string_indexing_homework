@@ -6,4 +6,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a = s[n]
+    return a
+
+print(main('python', 7))
