@@ -8,5 +8,3 @@ def main(s,n):
     """
     a = s[n]
     return a
-
-print(main('python', 7))
