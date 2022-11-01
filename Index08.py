@@ -7,5 +7,7 @@ def main(s):
         int: answer
     """
     a = s.find('*')
+    if not '*' in s:
+        a = False
     return a
         
