@@ -8,5 +8,5 @@ def main(s):
     """
     from string import digits
     d = digits
-    a = s.count(digits)
+    a = int(s).count(digits)
     return a
