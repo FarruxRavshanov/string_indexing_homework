@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    a = len(s[:])
+    from string import digits
+    d = digits
+    a = s.count(digits)
     return a
-
-print(main('coder'))
