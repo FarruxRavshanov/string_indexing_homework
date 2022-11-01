@@ -6,7 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    from string import digits
-    d = digits
-    a = int(s).count(digits)
-    return a
+    i = 0
+    count = 0
+
+    while i < len(s):
+        if s[i].isdigit():
+            count += 1
+        i += 1
+    return count
