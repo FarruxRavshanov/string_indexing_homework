@@ -7,8 +7,8 @@ def main(s):
         int: answer
     """
     answer = -1
-    d = int(s)
+    
     if  s.isdigit():
-        answer = d
+        answer = int(s)
 
     return answer
