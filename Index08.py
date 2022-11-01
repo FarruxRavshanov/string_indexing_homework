@@ -6,5 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = s.find('*')
+    return a
         
